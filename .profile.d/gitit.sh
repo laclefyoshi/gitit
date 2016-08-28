@@ -145,9 +145,5 @@ configure_gitit () {
 	log 'Gitit configured'
 }
 
-cron_gitit () {
-    echo -e '#!/bin/sh\ncd /app/wikidata;\ngit pull' > /app/cron.sh
-}
 
 configure_gitit
-cron_gitit
